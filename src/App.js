@@ -140,8 +140,6 @@ function FormAddFriend({ onAddFriend, onShowAddFriend }) {
 
     onAddFriend(newFriend);
 
-    console.log(newFriend);
-
     setName("");
     setImage("https://i.pravatar.cc/48");
   }
